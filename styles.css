@@ -9,12 +9,12 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header,
 .footer,
 .header-info {
-    font-family: 'Roboto', sans-serif;
     color: #f9faf8;
     background-color: #1f2937;
 }
@@ -93,3 +93,44 @@ body {
     border-radius: 8px;
     align-self: flex-start;
 }
+
+/*-----------------*/
+
+.info{
+    flex: 1;
+    padding: 64px 64px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cards{
+    padding: 64px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card{
+    flex: 1;
+    width: 300px;
+}
+
+.card>img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+    border: 5px solid #3882F6;
+}
+
+.card>p{
+    color: #1f2937;
+    text-align: center;
+}
+
+/*-----------------*/
