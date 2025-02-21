@@ -6,40 +6,90 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-.header, .footer{
-    font-family: 'Roboto',sans-serif;
+.header,
+.footer,
+.header-info {
+    font-family: 'Roboto', sans-serif;
     color: #f9faf8;
     background-color: #1f2937;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    padding: 8px 48px;
+    padding: 16px 64px;
     align-items: center;
 }
 
-.header ul{
+.header ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 16px;
 }
 
-.header a{
+.header a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px 64px;
+}
+
+.header-info {
+    flex: 1;
+    display: flex;
+    padding: 64px 64px;
+    gap: 64px;
+}
+
+.header-info-text {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-image {
+    flex: 1;
+}
+
+.header-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-info>img {
+    flex: 1 1 0;
+    width: 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    margin: 8px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    align-self: flex-start;
 }
