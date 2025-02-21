@@ -6,3 +6,40 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    font-family: 'Roboto',sans-serif;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 8px 48px;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
