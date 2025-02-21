@@ -92,6 +92,7 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     align-self: flex-start;
+    font-weight: 900;
 }
 
 /*-----------------*/
@@ -158,3 +159,13 @@ body {
 
 /*-----------------*/
 
+.sign-up-section{
+    flex: 1;
+    margin: 64px 96px;
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 32px 128px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
